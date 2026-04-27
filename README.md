@@ -5,7 +5,7 @@
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 Recent advances in generative AI have made synthetic speech nearly indistinguishable from real human voice. This introduces risks such as:
 
@@ -19,7 +19,7 @@ This project formulates the task as:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 We use the **Fake-or-Real Speech Dataset (FOR-norm subset)**:
 
@@ -37,7 +37,7 @@ We use the **Fake-or-Real Speech Dataset (FOR-norm subset)**:
 
 ---
 
-## 🧠 Approach Overview
+## Approach Overview
 
 This project is implemented as a **single end-to-end Jupyter Notebook pipeline** that includes:
 
@@ -71,7 +71,7 @@ Multiple architectures explored:
 
 ---
 
-## 🏆 Best Model: Threshold-Tuned TCN
+## Best Model: Threshold-Tuned TCN
 
 ### Performance:
 - **Accuracy:** 97.9%  
@@ -80,7 +80,7 @@ Multiple architectures explored:
 
 ---
 
-## ⚖️ Threshold Trade-off
+## Threshold Trade-off
 
 | Model Variant        | False Positives | False Negatives | Fake Detected |
 |---------------------|----------------|-----------------|--------------|
@@ -93,7 +93,7 @@ Multiple architectures explored:
 
 ---
 
-## 📓 Notebook Structure
+## Notebook Structure
 
 The entire workflow is contained in a **single notebook**, which typically follows this sequence:
 
@@ -110,7 +110,7 @@ The entire workflow is contained in a **single notebook**, which typically follo
 
 ---
 
-## 📈 Key Insights
+## Key Insights
 
 - MFCC features effectively capture artifacts in synthetic speech  
 - Temporal models (especially TCN) outperform static classifiers  
@@ -120,7 +120,7 @@ The entire workflow is contained in a **single notebook**, which typically follo
   - Verification → minimize false positives  
 
 ---
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository  
 2. Open the notebook:
@@ -133,7 +133,7 @@ persistent_speech_pipeline_notebook.ipynb
 
 ---
 
-## 📚 References
+## References
 
 1. Mohammed Abdeldayem - *Fake-or-Real Dataset*  
 2. Davis & Mermelstein (1980) - MFCC  
@@ -141,13 +141,13 @@ persistent_speech_pipeline_notebook.ipynb
 
 ---
 
-## 📎 Project Artifact
+## Project Artifact
 
 Notebook and results available here
 
 ---
 
-## 📌 Summary
+## Summary
 
 This project demonstrates that:
 
