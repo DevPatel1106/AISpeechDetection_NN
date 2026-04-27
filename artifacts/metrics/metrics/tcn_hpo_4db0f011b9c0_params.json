@@ -1,0 +1,10 @@
+{
+  "batch_size": 128,
+  "lr": 0.0005216702167766569,
+  "weight_decay": 0.00010905195766146757,
+  "dropout": 0.1238908512099623,
+  "kernel_size": 3,
+  "base_channels": 128,
+  "num_levels": 3,
+  "fake_weight_mult": 1.1261129140882469
+}
